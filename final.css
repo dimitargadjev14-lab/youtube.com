@@ -1,6 +1,6 @@
 .tumbnail{
-    width:300px;
-    display: block;
+    width: 100%;
+   
     
     
 }
@@ -9,12 +9,7 @@
     display: inline-block;
 }
 
-.video-prew{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right:15px  ;
-}
+
   
 .search-bar{
     display: block;
@@ -90,3 +85,12 @@ p{
     display: grid;
     grid-template-columns: 50px 1fr;
 }
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:16px;
+    row-gap: 40px;
+}
+
