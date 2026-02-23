@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FlexBox</title>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="width: 100px; background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink; flex: 1">
+        flex1
+        <p>text</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="width: 100px; background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink; flex: 1">
+        flex1
+        <p>text</p>
+        <div
+          style="display: flex; flex-direction: row; margin-top: 30px; flex: 2"
+        >
+          flex2
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
